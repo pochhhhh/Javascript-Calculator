@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css">
+
+	<title>JavaScript Calculator</title>
+</head>
+<body>
+
+<div id="main-box">
+
+<div id="components">
+
+<div id="screen-box"> <div id="main-screen"><h1 id="screen-number"></h1></div> </div>
+	
+<div id="clear-button" onclick="clearScreen()"><h4 class="button-symbol">C</h4></div>
+
+<div id="equals-button" onclick="result()"><h4 class="button-symbol">=</h4></div>
+
+<div id="digits-box">
+	
+
+
+
+<div class="digit-button" id="7" onclick="insertDigit(7)"><h4 class="button-symbol">7</h4></div>
+
+<div class="digit-button" id="8" onclick="insertDigit(8)"><h4 class="button-symbol">8</h4></div>
+
+<div class="digit-button" id="9" onclick="insertDigit(9)"><h4 class="button-symbol">9</h4></div>
+
+<div class="digit-button" id="4" onclick="insertDigit(4)"><h4 class="button-symbol">4</h4></div>
+
+<div class="digit-button" id="5" onclick="insertDigit(5)"><h4 class="button-symbol">5</h4></div>
+
+<div class="digit-button" id="6" onclick="insertDigit(6)"><h4 class="button-symbol">6</h4></div>
+
+<div class="digit-button" id="1" onclick="insertDigit(1)"><h4 class="button-symbol">1</h4></div>
+
+<div class="digit-button" id="2" onclick="insertDigit(2)"><h4 class="button-symbol">2</h4></div>
+
+<div class="digit-button" id="3" onclick="insertDigit(3)"><h4 class="button-symbol">3</h4></div>
+
+
+<div id="zero-button" onclick="insertDigit(0)" class="digit-button"><h4 class="button-symbol">0</h4></div> <div id="decimal-button" onclick="insertDigit('.')" class="digit-button"><h4 class="button-symbol">.</h4></div>
+
+
+
+
+
+
+</div>
+
+<div id="operators-box">
+
+<div id="operators-column">
+	
+<div class="operator-button" id="plus" onclick="add()"><h4 class="button-symbol operator-symbol">+</h4></div>
+
+<div class="operator-button" onclick="subtract()"><h4 class="button-symbol operator-symbol">-</h4></div>
+
+<div class="operator-button" onclick="multiply()"><h4 class="button-symbol operator-symbol">*</h4></div>
+
+<div class="operator-button" onclick="divide()"><h4 class="button-symbol operator-symbol">/</h4></div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+<script src="scripts.js" type="text/JavaScript"></script>
+</body>
+</html>
